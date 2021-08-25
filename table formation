@@ -1,0 +1,20 @@
+** generate table;
+*total=''*f=3.0: remove name 'total', f=format, rounded to 0 decimal places in 3 spaces
+*s=style;
+ods PDF file="file storage location"; 
+
+proc tabulate data=cct.csd6 s=[background=white];
+	class im2 m2 pp1 / s=[background=powderblue
+	foreground=black fontsize=2.5];
+	classlev im2 m2 pp1 / s=[background=white 
+	fontweight=medium foreground=black];
+	var total / s=[background=lightblue
+	foreground=black];
+	table im2='Intervention model'*m2='Masking'*pp1='Primary purpose', 
+	(total=''*f= 3.0) / box=[label='Study design' s=[background=vigb 
+	foreground=white fontsize=4] ];
+	keylabel sum=N;
+	run;
+
+quit; 
+ods PDF close;
