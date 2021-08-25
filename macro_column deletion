@@ -1,0 +1,28 @@
+** Scenario
+* Problem: At the 1st time of loading the original dataset, there were more than 1,000 empty columns.
+* Solution: Found a macro online which could keep the 1st 27 meaningful columns. 
+
+** Macro description
+* This macro allows you to specify the index of the 1st variable, the index of the last variable to keep, library name, and name of the new dataset formed
+
+** Macro creation
+%macro drop_vars(num_first_vars, num_end_vars, lib, dataset); %macro d;%mend d;
+
+proc sql noprint;;
+    select sum(num_character,num_numeric) into:ncolumns 
+    from dictionary.tables 
+    where libname=upcase("&lib") and memname=upcase("&dataset");
+    select name into: vars_to_drop separated by ',' 
+    from dictionary.columns 
+    where libname=upcase("&lib") and 
+          memname=upcase("&dataset") and
+          varnum between %eval(&num_first_vars.+1) and %eval(&ncolumns-&num_end_vars);
+   alter table &lib..&dataset
+   drop &vars_to_drop;
+quit;
+
+%mend drop_vars;
+
+** Ex use
+* Keep the 1st 27 columns (27, 0), the library name is cct, and the newly formed dataset is ct. 
+%drop_vars(27, 0, cct, ct);  
