@@ -1,6 +1,6 @@
 ** generate table;
-*total=''*f=3.0: remove name 'total', f=format, rounded to 0 decimal places in 3 spaces
-*s=style;
+* total=''*f=3.0: remove name 'total', f=format, rounded to 0 decimal places in 3 spaces
+* s=style;
 ods PDF file="file storage location"; 
 
 proc tabulate data=cct.csd6 s=[background=white];
