@@ -1,0 +1,23 @@
+** Filter rows having variable ‘study design’ starting with ‘Allocation: N/A’ or no information about allocation
+data cct.csd; 
+	set cct.ct (where=(substr('study designs'n, 1, index(('study designs'n), '|')-1 )='Allocation: N/A'
+	| (substr('study designs'n, 1, index(('study designs'n), ':')-1 )='Intervention Model')));
+	run;
+
+** break down elements in study designs;
+* im2: intervention model;
+* m2: masking;
+* pp1: primary purpose;
+data cct.csd2;
+	set cct.csd;
+	if substr('study designs'n, 1, index(('study designs'n), '|')-1 )='Allocation: N/A'
+	then im1 = substr('study designs'n, 36);
+	if substr('study designs'n, 1, index(('study designs'n), ':')-1 )='Intervention Model'
+	then im1 = substr('study designs'n, 20);
+	
+	im2 = substr(im1, 1, index(im1, '|')-1);
+	
+	m1 = substr(im1, index(im1, ':')+1);
+	m2 = substr(m1, 1, index(m1, '|')-1);
+	pp1 = substr(m1, index(m1, ':')+1);
+	run;
