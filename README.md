@@ -51,7 +51,7 @@ Approximately 78% of the trials were in Phase 2, Phase 3, or combination designs
 *	Interventional (= experimental): an intervention, eg. a drug, is assigned to a group of people.
 *	Observational (= epidemiologic): no intervention assigned, but an exposure and outcome of interest are compared across populations.   
 *	Expanded access (= compassionate use): An investigational medicine given to patient with a serious disease/condition for treatment outside of clinical trials, without available alternative treatments 
-*	
+
 #### References
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4083571/
 https://www.fda.gov/news-events/public-health-focus/expanded-access
