@@ -1,16 +1,29 @@
+** categorical - bar plot
 ods PDF file="file storage location"; 
 
-PROC SGPLOT DATA = cct.ca3 noborder;
-	    
+proc sgplot data = cct.ca3 noborder;    
 	vbar agec2 / 
 	fillattrs=(color='Rose' transparency=.2)    /* fillattrs to change bar colors */
 	categoryorder=respdesc  
 	datalabel
 	nooutline;   /* display freq # */
 	
-	XAXIS label = 'Age groups (years)' TYPE = DISCRETE;   /*type to change BG */ 
-	YAXIS LABEL = 'Frequency' ; 
-	TITLE "Age groups in COVID-19 clinical trials studies"; 
-	RUN;
+	xaxis label = 'Age groups (years)' TYPE = DISCRETE;   /*type to change BG */ 
+	yaxis LABEL = 'Frequency' ; 
+	title "Age groups in COVID-19 clinical trials studies"; 
+	run;
+quit;  
+ods PDF close;
+
+** numeric - histogram
+ods PDF file="file storage location"; 
+
+proc sgplot data=cct.clp noborder;
+	histogram 'last update posted'n  / transparency=0.8 fillattrs=(color=stro) nooutline scale=count;
+	xaxis label='Month';
+	yaxis label='Number of trials';
+	title 'Month of last update posted by COVID-19 clinical trials studies';
+	run;
+	
 quit;  
 ods PDF close;
