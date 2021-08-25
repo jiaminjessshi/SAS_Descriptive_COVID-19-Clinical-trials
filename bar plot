@@ -1,0 +1,16 @@
+ods PDF file="file storage location"; 
+
+PROC SGPLOT DATA = cct.ca3 noborder;
+	    
+	vbar agec2 / 
+	fillattrs=(color='Rose' transparency=.2)    /* fillattrs to change bar colors */
+	categoryorder=respdesc  
+	datalabel
+	nooutline;   /* display freq # */
+	
+	XAXIS label = 'Age groups (years)' TYPE = DISCRETE;   /*type to change BG */ 
+	YAXIS LABEL = 'Frequency' ; 
+	TITLE "Age groups in COVID-19 clinical trials studies"; 
+	RUN;
+quit;  
+ods PDF close;
