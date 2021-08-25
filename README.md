@@ -38,8 +38,8 @@ The majority of the trials enrolled fewer than 100,000 people. Among the followi
 * Note that it’s acceptable to combine Phase 1 and Phase 2 as well as Phase 2 and Phase 3.
 
 #### References
-https://www.canada.ca/en/health-canada/services/clinical-trials.html
-https://clinicaltrials.gov/ct2/about-studies/glossary
+* https://www.canada.ca/en/health-canada/services/clinical-trials.html
+* https://clinicaltrials.gov/ct2/about-studies/glossary
 
 ### 5.2 Visualization
 Approximately 78% of the trials were in Phase 2, Phase 3, or combination designs. While around 8% of the trials had drugs approved for marketing, approximately 14% of the trials were in their early phases (Phase 1 or Early phase 1).
@@ -53,8 +53,8 @@ Approximately 78% of the trials were in Phase 2, Phase 3, or combination designs
 *	Expanded access (= compassionate use): An investigational medicine given to patient with a serious disease/condition for treatment outside of clinical trials, without available alternative treatments 
 
 #### References
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4083571/
-https://www.fda.gov/news-events/public-health-focus/expanded-access
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4083571/
+* https://www.fda.gov/news-events/public-health-focus/expanded-access
 
 ### 6.2 Visualization
 The number of interventional studies were over 1.3 times that of observational studies. There were only 0.5% of the studies were classified as expanded access.
