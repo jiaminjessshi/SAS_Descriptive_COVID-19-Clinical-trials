@@ -49,8 +49,8 @@ Approximately 78% of the trials were in Phase 2, Phase 3, or combination designs
 
 ## 6.	Study type
 ### 6.1. Study type description
-*	Interventional (= experimental): an intervention, eg. a drug, is assigned to a group of people.
-*	Observational (= epidemiologic): no intervention assigned, but an exposure and outcome of interest are compared across populations.   
+*	Interventional (= experimental): An intervention, eg. a drug, is assigned to a group of people.
+*	Observational (= epidemiologic): No intervention assigned, but an exposure and outcome of interest are compared across populations.   
 *	Expanded access (= compassionate use): An investigational medicine given to patient with a serious disease/condition for treatment outside of clinical trials, without available alternative treatments 
 
 #### References
