@@ -31,7 +31,7 @@ The majority of the trials enrolled fewer than 100,000 people. Among the followi
 
 ## 5.	Phases
 ### 5.1 Phases description
-* Early phase 1 (= Phase 0): Exploratory tests aiming to investigate where a drug affects the body.
+* Early phase 1 (= Phase 0): Exploratory tests aiming to investigate whether a drug affects the body.
 * Phase 1: The 1st time to test a drug on a small group of people, aiming to investigate drug’s safety, safe dosage, range, and potential side effects.
 * Phase 2: Tests of a drug are assigned to a large group of people (N ≥ 100), aiming to examine drug’s treatment effects, safety, and the best dose.
 * Phase 3: Tests of a drug are assigned to a larger group of people (N ≥ 1,000), aiming to ensure drug’s effectiveness, monitor side effects, make comparison with alternative routine treatments, and collect information related to drug’s safety.
