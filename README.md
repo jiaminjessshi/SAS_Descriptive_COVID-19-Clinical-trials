@@ -69,7 +69,7 @@ Drug was the top 1 intervention type, and its frequency was approximately 3 time
 
 ## 8.	Study design
 ### 8.1 Allocation: N/A
-Among trials not having information about allocation, intervention model was as classified as parallel, sequential, or single group assignments. Masking was open label, single, or double. Primary purpose included treatment, diagnostic, and health services research, etc. The most common study design was single group assignment, open label, with a primary purpose of treatment. 
+Among trials not having information about allocation, intervention model included parallel, sequential, or single group assignments. Masking was open label, single, or double. Primary purpose included treatment, diagnostic, and health services research, etc. The most common study design was single group assignment, open label, with a primary purpose of treatment. 
 
 ![2 study design_v3_a1-c](https://user-images.githubusercontent.com/89493265/130713049-25117569-3dbc-4414-ad0b-f574cd6c4544.jpg)
 
