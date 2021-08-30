@@ -9,7 +9,7 @@ For more information regarding the dataset, please visit: https://www.kaggle.com
 
 ## 2.	Demographics
 ### 2.1 Age
-Approximately 75% of the trials enrolled adults (people older than 18 years), and 14% of the trials enrolled people across all age groups. The remaining 11% of the trials had non-adult people, people younger or older than 65 years.
+Approximately 75% of the trials enrolled adults (people older than 18 years), and 14% of the trials enrolled people across all age groups. 
 
 ![3 age bar plot-c](https://user-images.githubusercontent.com/89493265/130711300-8e0fd524-b59e-4622-ad65-617d5013141f.jpg)
 
