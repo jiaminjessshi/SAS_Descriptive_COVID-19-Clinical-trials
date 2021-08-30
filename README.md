@@ -14,7 +14,7 @@ Approximately 75% of the trials enrolled adults (people older than 18 years), an
 ![3 age bar plot-c](https://user-images.githubusercontent.com/89493265/130711300-8e0fd524-b59e-4622-ad65-617d5013141f.jpg)
 
 ### 2.2 Sex
-Approximately 96% of the trials enrolled both male and female people. The number of trials enrolling females only were 3.7 times those enrolling males only.
+Approximately 96% of the trials enrolled both males and females. The number of trials enrolling females only were 3.7 times those enrolling males only.
 
 ![9 sex bar plot-c](https://user-images.githubusercontent.com/89493265/130711468-266e14c3-d612-4db1-a85f-2407c1cfc192.jpg)
 
