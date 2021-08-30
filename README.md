@@ -26,7 +26,8 @@ Time period of March and May 2021 contained most trials with the last update pos
 ## 4.	Enrollment
 The majority of the trials enrolled fewer than 100,000 people. Among the following six enrollment groups, most trials had 0-200 people, while very few trials had people enrolled among 100,001-20,000,000.
 
-![Screenshot 2021-08-24 213558](https://user-images.githubusercontent.com/89493265/130711861-e746638f-8638-4d75-add0-35eda9a0d323.jpg)
+![5 enrollment histograms_v3-2](https://user-images.githubusercontent.com/89493265/131271430-28204e47-db67-4f2c-99f8-119273fef426.jpg)
+
 
 ## 5.	Phases
 ### 5.1 Phases description
