@@ -58,7 +58,7 @@ Approximately 78% of the trials were in Phase 2, Phase 3, or combination designs
 * https://www.fda.gov/news-events/public-health-focus/expanded-access
 
 ### 6.2 Visualization
-The number of interventional studies were over 1.3 times that of observational studies. There were only 0.5% of the studies were classified as expanded access.
+The number of interventional studies were over 1.3 times that of observational studies. Only 0.5% of the studies were classified as expanded access.
 
 ![10 study type bar plot-c](https://user-images.githubusercontent.com/89493265/130712810-8a49c4e2-3820-4572-b382-faacafd40642.jpg)
 
